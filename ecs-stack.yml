@@ -71,7 +71,7 @@ Parameters:
   SecurityGroupName:
     Type: String
     Default: ch-dev-ecs-security-group
-    Description: Enter a security group name for the ESC.
+    Description: Enter a security group name for the ECS.
     AllowedPattern: ^[0-9a-zA-Z]+([0-9a-zA-Z-]*[0-9a-zA-Z])*$
     ConstraintDescription: Security group name can include numbers, lowercase letters, uppercase letters, and hyphens (-). It cannot start or end with a hyphen (-).
   
@@ -131,7 +131,7 @@ Parameters:
   ExecutionRoleName:
     Type: String
     Default: ecsTaskExecutionRole
-    Description: Enter a Execution Role Arn.
+    Description: Enter a Execution Role Name.
 
 Resources:
 
